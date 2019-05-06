@@ -1,0 +1,25 @@
+{
+    "tasks": {
+        "0": {
+            "type": "cellCountingTask",
+            "parameters": {
+                "cellRadius": 10,
+                "brightness": 1.0
+            }
+        },
+        "1": {
+            "type": "genVoxelTask",
+            "parameters": {
+                "scale": 0.125
+            }
+        }    
+    },
+    "brains": {
+        "0": {
+            "name": "default",
+            "pixelSize": 1.95,
+            "directory": "/run/media/o/TOSHIBA EXT/testdata/cc/",
+            "saveDir": "/run/media/o/TOSHIBA EXT/test/"
+        }
+    }
+}
